@@ -11,7 +11,7 @@ while sticks > 0:
     if sticks < 0:
         sticks = sticks + step1
         print("Wrong step!!! ")
-    print(f"Stikcs left {sticks}!")
+    print(f"Sticks left {sticks}!")
     if sticks == 0:
         print(f"You win {user1}, Congratulations!")
         break
@@ -24,7 +24,7 @@ while sticks > 0:
     if sticks < 0:
         sticks = sticks + step2
         print("Wrong step!!!")
-    print(f"Stikcs left {sticks}!")
+    print(f"Sticks left {sticks}!")
     if sticks == 0:
         print(f"You win {user2}, Congratulations!")
         break
